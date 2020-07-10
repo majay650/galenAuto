@@ -1,0 +1,23 @@
+
+@objects
+  
+   next_button xpath //*[span[@id="button-1019-btnInnerEl"]
+   username_textfield xpath //input[@id="textfield-1018-inputEl"]
+   company_logo xpath //label[@id='label-1015']
+	
+= Main Logo section =
+   company_logo:
+       width 203px
+       height 45px 
+       near user_icon 1088px left
+       width 14 % of screen/width
+         
+   username_textfield:
+    above login_password 40px
+    width 328px 
+    height 34px 
+   
+   next_button:
+    color-scheme 10% white, 4 to 5 % black, < 30% #f845b7
+    near login_password 500px top, 100px left, 100px bottom
+                   
